@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/conversorTemperatura.css">
+    
+    <title>Conversor de Temperatura</title>
+</head>
+<body>
+    <div class="container-title">
+        <h1 class="title">
+          Conversor de Temperatura
+        </h1>
+        <h6 class="author">
+          Kevin Muñoz
+        </h6>
+      </div>
+      
+      
+
+      <script src="js/conversorTemperatura.js"></script>
+
+      <div class="container-convertors">
+
+        <div class="container-form">
+            <h3 class="title-form">Convierte la Temperatura</h3>
+            <form name="ingreso">
+              <label for="kelvin" class="title-input">Grados kelvin</label><br>
+              <input type="text" id="kelvin" class="input-form" name="kelvin"><br>
+              <input type="button" class="button-form" value="Convertir" onclick="convertirCelcius()">
+            </form>
+            <p id="resultado" class=response-form></p>
+          </div>
+      </div>
+
+
+      <a class="links" href="index.html">Volver atras</a>
+    
+</body>
+</html>
